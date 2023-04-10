@@ -1,0 +1,118 @@
+.navbar {
+    background-color: rgb(245, 225, 231);
+    padding: 1;
+    }
+
+.nav-link{
+    color: rgb(19, 18, 18) !important;
+}    
+.navbar-brand{
+    color: white;
+}
+.navbar-text{
+    color: white;
+}
+.nav-link.action{
+    color: white;
+
+}
+.nav-item1{
+    color: white;
+
+}
+
+.d-flex{
+    color: white;
+}
+.custom-bg {
+    background-color: #eac0e3;
+  }
+.newarrivals{
+    color:#000000;
+}
+.colorcard{
+    background-color: #f8d3ea;
+}
+.card{
+    border: 1px solid #e9cfff;
+}
+.container-fluid{
+    background-color: #ffffff;
+}
+.card{
+    background-color:   #f5f5f7;
+}.card-body{
+    background-color:  #342437;
+}
+.container {
+    text-align: center;
+  }
+ .card-body{
+    color: #dbbfd4;
+ }
+ .btn{
+    background-color:  #962436;
+ }
+.table{
+    background-color: #fcfcfe;
+    color: rgb(3, 3, 3);
+    
+}
+.custom-bg{
+    background-color: #ecd2eb;
+}
+.layout{
+    display: flex;
+    height: 200px;
+    gap: 10px;
+    justify-content: center;
+
+}
+.layout > div {
+    flex: 1;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all 0.8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+.layout > div:hover{
+    flex: 5;
+    
+
+}.marquee {
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+    .title::after{
+        content:"";
+        background: #000000;
+        width: 500px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+    .z{
+        background-color: #ecc3f4   ;
+    }

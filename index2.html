@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css">
+  <script src="bootstrap-5.3.0-alpha2-dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    td>input.form-control {
+      margin-top: 18%;
+    }
+
+    .list-group-item {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .list-group-item>p {
+      margin-top: 3%;
+    }
+    .button1{
+    width: 15%;
+    aspect-ratio: 10/3;
+    }
+    @media screen and (max-width:768px) {
+      div.a {
+        justify-content: center;
+      }
+      .button1{
+        width: 1000%;
+        aspect-ratio: 15/5;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  
+ <nav class="navbar navbar-expand-lg bg-body-tertiary1 ">
+  <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+          <img class="rounded-2" src="img2/logo.png" alt="" width="50"><span class="h3 ms-2">Store</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-grow-1 justify-content-around align-items-center">
+              <li class="nav-item">
+                  <a class="nav-link active"  aria-current="page" href="#"><h3> Trang  chủ</h3></a>
+              </li>
+              
+              <li class="nav-item dropdown h3">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lens
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Lens màu</a></li>
+                      <li><a class="dropdown-item" href="#">Lens thường</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Hộp đựng Lens</a></li>
+                  </ul>
+              </li>
+
+              <li class="nav-item dropdown h3">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nước hoa	
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Nam</a></li>
+                      <li><a class="dropdown-item" href="#">Nữ</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Trẻ em</a></li>
+                  </ul>
+              </li>
+              
+              <li class="nav-item">
+                  <a class="nav-link disabled"><h3> Hỗ trợ</h3></a>
+              </li> 
+          </ul>
+          <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-secondary  " type="submit">Search</button>
+          </form>
+      </div>
+  </div>
+</nav>
+
+
+<marquee ><img src="img2/icon-dong-cute-dep-nhat.gif" height="20px">Ưu đãi 15% khi mua từ 2 sản phẩm trở lên tặng kèm thêm 1 chai nước hoa chiết</marquee>
+      <div class="custom-bg"> 
+
+    <div class="container-fluid bg-light p-0" style="margin-top: 5;">
+      <div class="col" style="display: flex; justify-content: space-between; background-color: rgb(237, 218, 246); padding: 0;">
+        <h6><img src="img/cart-shopping-solid.svg" alt="" srcset="" style="width: 10%;aspect-ratio: 10/10;"> SHOPPING CART
+        </h6><h3>
+        <p> <a href="index3.html" style="text-decoration: none;color: black; ">Trở về trang chủ</a></p>
+      </h3></div>
+    </div>
+
+    <div class="row bg-light">
+      <div class="col-lg-9 col-md-12 table-responsive">
+
+        <table class="table" style="border: 1px;">
+          <thead class="z">
+            <tr>
+              <th scope="col" style="max-width: 20%; color: rgb(0, 0, 0);">PRODUCT</th>
+              <th scope="col" style="min-width: 30%; color: rgb(9, 10, 10);">Details</th>
+              <th scope="col" style="min-width: 15%; color: rgb(6, 6, 6);">DELETE</th>
+              <th scope="col" style="min-width: 10%; color: rgb(7, 8, 8);">QNT</th>
+              <th scope="col" style="min-width: 10%; color: rgb(0, 0, 0);">DISCOUNT</th>
+              <th scope="col" style="min-width: 15%; color: rgb(1, 1, 1);">TOTAL</th>
+            </tr>
+          </thead>                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+          <tbody>
+            
+            <tr>
+              <td style="width: 15%;"><img
+                  src="img2/s2.png "
+                  alt="" srcset="" style="max-width: 100%;aspect-ratio: 10/14;"></td>
+              <td style="width: 30%;">Estee Lauder Advanced Night Repair<br> 50ml <br> 1 bộ
+                </td>
+              <td style="width: 15%;"><a href=""><img src="trash-solid.svg" alt=""
+                    style="width: 30%;margin-top: 10%;"></a></td>
+              <td style="width: 10%;"><input class="form-control" value="1" type="text"
+                  aria-label="default input example" style="width: 70%;padding: 5%;"></td>
+              <td class="normal" style="width: 10%;">
+                <p style="margin-top: 22%;">1</p>
+              </td>
+              <td class="normal" style="width: 15%;">
+                <p style="margin-top: 13%;">465.000₫</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 15%;"><img
+                  src="img2/s1.png"
+                  alt="" srcset="" style="max-width: 100%;aspect-ratio: 10/14;"></td>
+              <td style="width: 30%;">TOM FORD Lip Color Estee Lauder Satin Matte <br>1sp <br> 1 thỏi <br>
+               </td>
+              <td style="width: 15%;"><a href=""><img src="trash-solid.svg" alt=""
+                    style="width: 30%;margin-top: 10%;"></a></td>
+              <td style="width: 10%;"><input class="form-control" type="text" aria-label="default input example"
+                  value="1" style="width: 70%;padding: 5%;"></td>
+              <td class="normal" style="width: 10%;">
+                <p style="margin-top: 22%;">3.520.000₫</p>
+              </td>
+              <td class="normal" style="width: 15%;">
+                <p style="margin-top: 13%;">3.520.000₫</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 15%;"><img
+                  src="img/9.png"
+                  alt="" srcset="" style="max-width: 100%;aspect-ratio: 10/14;"></td>
+              <td style="width: 30%;">Versace Pour Homme Eau de Toilette <br> 100ml <br> 3.520.000₫ </td>
+              <td style="width: 15%;"><a href=""><img src="trash-solid.svg" alt=""
+                    style="width: 30%;margin-top: 10%;"></a></td>
+              <td style="width: 10%;"><input class="form-control" value="1" type="text"
+                  aria-label="default input example" style="width: 70%;padding: 5%;"></td>
+              <td class="normal" style="width: 10%;">
+                <p style="margin-top: 22%;">2</p>
+              </td>
+              <td class="normal" style="width: 15%;">
+                <p style="margin-top: 13%;">7.040.000₫</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+
+      <div class="col-lg-3 col-md-12 ">
+        <button type="button" class="btn btn-secondary" style="border-radius: 0;width: 100%;">Proceed to checkout</button>
+        <div class="card" style="width: 100%; background-color:  rgb(218, 218, 218) ;">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <p>Total product</p>
+              <p style="font-weight: bold;">$214124</p>
+            </li>
+            <li class="list-group-item">
+              <p>Shipping</p>
+              <p style="font-weight: bold;color: rgb(143, 100, 186);">Free shipping</p>
+            </li>
+            <li class="list-group-item">
+              <p>Total tax</p>
+              <p style="font-weight: bold;">$0</p>
+            </li>
+            <li class="list-group-item">
+              <p>Total</p>
+              <p style="font-weight: bold;">$512</p>
+            </li>
+            <li class="list-group-item" style="padding: 3%;margin-top: 10%;">
+              <input class="form-control" type="text" placeholder="Coupon code" aria-label="default input example"
+                style="width: 60%;">
+              <button class="btn btn-secondary" style="width: 40%;border-radius: 2%;">Apply</button>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+   
+    </div>
+
+    <div class="container-fluid "> 
+
+      <div class="row p-0 d-flex " style="background-color:#f5f5f7 ;">
+        
+        <div class="col-sm-3 p-0 mb-sm-0">
+          <div class="card  text-dark border-0">
+            <div class="card-body2">
+              <div class="h5 ">SUPPORT</div><hr>
+              <div class="h5 card-title">Phone</div>
+              <p class="card-text text-center"><img src="img/phone-solid.svg" width="7%">  +03-662-415-798</p>
+              <h5 class="card-title">Gmail</h5>
+              <p class="card-text text-center"><img src="img/envelope-solid.svg" width="7%"> anhkhoa02k@gmail.com</p>
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="col-sm-3 p-0 mb-sm-0">
+          <div class="card  text-dark border-0">
+            <div class="card-body2">
+              <div class="h5 ">Shop</div><hr>
+              <div class="1">Galaxy</div>
+              <div class="2">Untral</div>
+              <div class="3">Flus</div>
+              <div class="5">Ultimate</div>
+              <div class="6">Pgamma</div>
+            </div>
+          </div>
+        </div> 
+        
+        
+        <div class="col-sm-3 p-0 mb-sm-0">
+          <div class="card  text-dark border-0">
+            <div class="card-body2">
+              <div class="h5">STAY TOUCH</div><hr>
+              <div class="1">My Accout</div>
+              <div class="2">My Address</div>
+              <div class="3">Wish List</div>
+              <div class="4">Order list</div>
+              <div class="5">Order Status</div>
+              
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="col ">
+          <h2 style="margin-top: 3%; color: black;">Contact</h2>
+          <hr>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
+          </div>
+          <button type="button" class="btn btn-success btn-md" style="border-radius: 0;width: 100%;">SUBSCRIBE</button>
+          <button type="button" class="btn btn-secondary"
+            style="width: 20%;border-radius: 90%;aspect-ratio: 8/10;margin-top: 2%;margin-right: 3%;height: 30%"><img
+              src="" alt=""></button>
+          <button type="button" class="btn btn-secondary"
+            style="width: 20%;border-radius: 90%;aspect-ratio: 8/10;margin-top: 2%;margin-right: 3%;height: 30%"><img
+              src="" alt=""></button>
+          <button type="button" class="btn btn-secondary"
+            style="width: 20%;border-radius: 90%;aspect-ratio: 8/10;margin-top: 2%;margin-right: 3%; height: 30%"><img
+              src="" alt=""></button>
+          <button type="button" class="btn btn-secondary"
+            style="width: 20%;border-radius: 90%;aspect-ratio: 8/10;margin-top: 2%;margin-right: 3%; height: 30%;"><img
+              src="" alt=""></button>
+      </div>
+      </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
